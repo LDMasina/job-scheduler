@@ -41,3 +41,13 @@ class DataProcessingJob (Job):
     def execute (self) -> None:
         print (f"Processing dataset {self.dataset}...")
         self.mark_done()
+
+class PriorityJob (Job):
+    """ Child class: processes prioritisation """
+    def __init__(self, job_id: int, description: str, priority: str) -> None:
+        super().__init__(job_id, description)
+        self.priority = priority
+
+    def execute (self) -> None:
+        print (f"Processing priority {self.priority}...")
+        self.mark_done()

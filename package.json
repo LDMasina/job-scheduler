@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "server": "node server.js",
-    "run:py": "cd backend && python app.py",
+    "run:py": "cd backend && python3 app.py",
     "start": "node server.js"
   },
   "dependencies": {

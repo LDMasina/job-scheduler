@@ -1,14 +1,26 @@
 {
- "name": "job-scheduler",
- "version": "1.0.0",
- "description": "Python OOP + REST tutorial",
- "main": "server.js",
- "scripts": {
- "server": "node server.js",
- "run:py": "cd backend && python app.py"
- },
- "dependencies": {
- "cors": "^2.8.5",
- "express": "^4.19.2"
- }
+  "name": "job-scheduler",
+  "version": "1.0.0",
+  "description": "Python OOP + REST tutorial",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "run:py": "cd backend && python app.py",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.2"
+  },
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/LDMasina/job-scheduler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LDMasina/job-scheduler/issues"
+  },
+  "homepage": "https://github.com/LDMasina/job-scheduler#readme"
 }
